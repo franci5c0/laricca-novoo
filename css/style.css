@@ -38,31 +38,41 @@ padding: 5px;
 font-family: "Sedan", cursive;
 }
 
-.menu-container {
+.divisao {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 19px;;
-    list-style: none;
+}
+
+
+
+.menu-de-pratos {
+    background-color: var(--white);
+    display: flex;
+    justify-items: stretch;
+    margin: 100px 150px;
+    font-size: 30px;
 }
 
 .topo-do-site {
     background-color: var(--white);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    
     background-image: url(fundo.jpg);
     background-size: 100%;
 }
+
 .image-container {
     width: 250px;
 }
 
 .topo-do-site img {
-    width: 150px;
+    width: 200px;
     max-height: auto;
 }
 
+    .banner-container-carrinho {
+        justify-content: flex-end;
+    }
 
 /*Corpo*/
 
@@ -117,7 +127,7 @@ margin-bottom: 10px;
     margin-left: 125px;
 }
 
-/*cardápio | drinks*/
+/*cardápio | drinks
 .imagem-cardapio-container {
 width: 40%;
 border-radius: 100px;
@@ -125,6 +135,15 @@ margin: 10px;
 
 }
 
+/*.titulo-menu-prato {
+    border-radius: 10px;
+    font-family: "Sedan", cursive;
+    background-color: var(--navajo);
+    text-align: center;
+    margin: 25px;
+    padding: 5px; 
+}
+*/
 .comentario-menu {
 
 font-family: "Sedan", cursive;
@@ -145,9 +164,13 @@ width: 250px;
 
 }
 
-.menu-prato-container {
+.link-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
    
-    
 }
 
 
