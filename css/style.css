@@ -38,12 +38,6 @@ padding: 5px;
 font-family: "Sedan", cursive;
 }
 
-.divisao {
-    display: flex;
-}
-
-
-
 .menu-de-pratos {
     background-color: var(--white);
     display: flex;
@@ -54,20 +48,29 @@ font-family: "Sedan", cursive;
 
 .topo-do-site {
     background-color: var(--white);
-    display: flex;
-    justify-content: space-between;
-    
     background-image: url(fundo.jpg);
     background-size: 100%;
 }
+
+.topo-do-site-car {
+    justify-content: end;
+    display: flex;
+}
+
+.topo-do-site-banner {
+
+display: flex;
+
+} 
 
 .image-container {
     width: 250px;
 }
 
 .topo-do-site img {
-    width: 200px;
+    width: 150px;
     max-height: auto;
+    height: 100px;
 }
 
     .banner-container-carrinho {
@@ -158,10 +161,6 @@ color: var(--Red);
 .comentario-menu-drink{
     font-family: "Sedan", cursive;
     font-size: 30px;
-}
-.menu-prato-container img {
-width: 250px;
-
 }
 
 .link-header {
